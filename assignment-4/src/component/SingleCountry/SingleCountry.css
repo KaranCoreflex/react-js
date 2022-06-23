@@ -1,0 +1,44 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.image-center {
+    margin: 0 auto;
+}
+.image-center img {
+    width: 100%;
+}
+.details {
+    background-color: #00A0D7;
+    color: #fff;
+    padding: 20px;
+}
+.borders {
+    border: 1px solid #fff;
+    margin: 0 auto;
+    cursor: default;
+    font-size: calc(1.3rem + .6vw);
+    font-weight: 500;
+}
+.details h3 {
+    border: 1px solid #fff;
+    padding: 6px;
+}
+.cursor{
+    cursor: pointer;
+}
+.details p {
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.details h3.d-flex {
+    flex-wrap: wrap;
+}
+.modal-dialog.modal-90w {
+    max-width: 80%;
+}
+.d-flex {
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 700px) {
+    .button-top-mobile{
+        flex-direction: column-reverse;
+    }
+}

@@ -1,0 +1,10 @@
+.nav-bg-color{
+    background-color: #00A0D7 !important;
+    color: #ffff;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    border: none;
+    padding: 0 !important;
+}
+a.nav-link.active {
+    color: #00a0d7 !important;
+}

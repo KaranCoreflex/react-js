@@ -1,0 +1,37 @@
+body{
+  background: rgb(215,212,237);
+  background: linear-gradient(90deg, rgba(215,212,237,1) 0%, rgba(181,181,241,1) 35%, rgba(137,137,213,1) 100%);
+  color: #fff;
+}
+img.custom-img {
+  width: 100%;
+}
+a:hover, a{
+  text-decoration: none;
+  color: inherit;
+}
+.details-assignment {
+  position: absolute;
+  color: #fff;
+  align-self: center;
+  align-self: center;
+  display: none;
+}
+.details-overlay{
+  display: flex;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  background-color: #000000a8;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.details-overlay:hover .details-assignment{
+  display: block;
+}
+.details-overlay:hover .overlay{
+  display: block;
+}
