@@ -1,0 +1,153 @@
+some project for practice:- https://www.youtube.com/c/LamaDev/playlists
+To learn and practice project play list:- https://www.youtube.com/c/LamaDev/playlists
+
+- let and const:- 
+	- variables and constants have block scope which is surrounded by curly-braces "{}" and cannot be used before declaration.
+	- we can't used var 
+	- let:- this variable have block of scope
+	- const:- we can declare at the top also but we can't change the value of const variable
+	
+- Donw with onclick, onmousehover, onmouseout, onload, onchange
+
+- export:- we can export any function and variable 
+- import:- we can import the exported function and used any file 
+
+- destructor :-  
+	We have object a = {name:"karan" surname:"Thopate"}
+	Then we can choose any element using "a.name" or "a.surname" like this.
+	result will be karan or thopate as per you above requirement
+	
+- Array methods:- 
+		- pop() :- Delete the last element from array
+		- push():- Added the element in array at the last
+		- shift() :- Delete 1st element of array
+		- unshift() :- Added element 1st in array
+		- find() :- find the spacific element in array like less than 10 or grater than 10. but find() return only one element 
+		- map() :- we have array and each and every element we have opration like square, addition that's time we can use map
+		- filter() :- filter the spacific element in array like less than 10 or grater than 10. filter() return all element in array
+		- splice() :- Change original array. and return result
+		- slice() :- Does not change original array return new array. when we give any negative position of number the they count reverse
+
+- Backtick:- 
+		We can use value of variable directly
+		e.g:- 
+		.html file:-
+			 <h3>Backtick</h3>
+			<h4>We can use value of variable directly</h4>
+			<h4 id="backtick"></h4>
+			
+		.js file:-
+			var my_name = 'Alpha Beta';
+			var text = `My name is ${my_name}`;
+			document.getElementById("backtick").innerHTML = text;
+			
+			
+- Ternary Operator:- 
+	They are conditional operator
+	Syantax for 2 condition:- ab > b ? console.log("ab is less than b") : console.log("b is grater than ab");
+	Syantax for 1 condition:- ab < b && console.log("ab is less than b")
+	
+- DOM Manipulation
+	- refer:- https://www.w3schools.com/js/js_htmldom_document.asp
+	- Finding HTML Elements there are few types
+		1.document.getElementById(id)
+		2.document.getElementsByTagName(name)	
+		3.document.getElementsByClassName(name)	
+	
+refer:- https://www.youtube.com/playlist?list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt
+- Introduction to react:-
+	- React is not a framework. React is single page site or app
+	- React is javascript libaray
+	
+- Diffreance btn npm and npx
+	- npm :- When we use npm its take time and download all file to our computer
+	- npx :- When use npx its dosen't take time and not download more file its faster than npm 
+	
+- react app overview:-
+	- create an app using "npx create-react-app app_name"
+	- There have some file and folder alredry created
+	- We can write code on src folder
+	- In public folder there have index.html file. This file is important file
+
+- props:-
+	- props is a read only and we can set default props also using 
+	- Syantax:- component_name.defaultProps = { title: 'name'}
+
+- useState:- 
+	- It's hold a data and change data
+	- There have {useState} Hook
+	
+- Component life cycle:-
+	- Mounting:- Birth of component (means onload) 
+		- componentDidMount():- run after render funtion
+	- Update:- Growth of your component
+	- Unmount:- Death of component
+		
+- Routing:- 
+- In react router we can use "Link" to jump any page
+- But when we use "CSS" in that thats time we can use "NavLink"
+
+- Controlled and Uncontrolled form
+1.Controlled from:- 
+	which from are controlled by react is called controlled form 
+	We can use onChange methed here 
+	And we can't have data acess
+	we have to use "value" attribute
+	
+2.Uncontrolled from:- 
+	Which are control by component or user
+	we can use "useRef" Hook in that 
+	And we have data acess
+
+Redux:- 
+	refer:- https://www.youtube.com/watch?v=X7Zop1c2gVI&list=PLUVqY59GNZQMYJgEO3KWXkGcd3JSEfUst&index=1
+	
+react-redux featch api:- 	
+	refer:- https://www.youtube.com/watch?v=2kL28Qyw9-0
+	
+- dispatch:- It is a hook and its work like a switch case, that means you can directly get case/function
+- useSelector:- To display the name and data or numbers
+
+- Theree principle of redux
+1. store :- hold state value
+2. action :- make some action
+3. reducer :- how to change the state, return new state
+
+Hookes:- 
+1. useLocation:- Used for featch data from prev page
+2. useNavigate: Jump to next page
+3. useEffect:- It's used for side effect, That means when you prefrom some opration after or before application run. 
+4. useParams:- It's used for to get value or id from URL
+		
+
+- Combining Reducers:- It helps to organize multiple reducers to manage their own slice of state.
+
+- axios:- It's used for featching api 
+- Syantax:-
+  const loadUser = async () => {
+    const response = await axios.get(api);
+    setData(response.data)
+  }
+  
+- redux featch api video:- https://www.youtube.com/watch?v=SSy8CuJmh1o  
+  
+- heroku:- It's a make site live and it is free hosting server
+- Refer:- https://www.youtube.com/watch?v=5cbFLDe4OAA  
+- Crud opration my app:- https://react-crude-json-app.herokuapp.com/
+
+Animation in React:-
+Framer Motion:- Refer:- https://www.youtube.com/playlist?list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i
+
+1. react-vis - npm used for graph and animation
+2. Styled component:- Some user write css in js file thats time we can used this component
+3. React Anim :- 
+4. React reveal:- Left, Right, Up, Down, Zoom, ZoomOut etc.. animations
+	refer:- https://github.com/morellodev/react-awesome-reveal
+5. React spring:- 
+
+JSON data give type for type-script:- https://jvilk.com/MakeTypes/
+
+
+
+
+	
